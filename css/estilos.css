@@ -67,33 +67,33 @@ body {
     text-decoration: none;
     color: #4c8055;
 }
-.about-company i {
+.footer .about-company i {
     font-size: 25px;
 }
-.about-company a {
+.footer .about-company a {
     color: white;
     transition: color .2s;
 }
 
-.about-company a:hover {
+.footer .about-company a:hover {
     color: #4c8055;
 }
 
-.location i {
+.footer .location i {
     font-size: 18px;
 }
 
-.copyright p {
+.footer .copyright p {
     border-top: 1px solid rgba(255, 255, 255, .1);
 }
 
-.location a {
+.footer .location a {
     color: white;
     transition: color .2s;
     text-decoration: none;
 }
 
-.location a:hover {
+.footer .location a:hover {
     text-decoration: none;
     color: #4c8055;
 }
@@ -117,6 +117,11 @@ body {
     box-shadow: 10px 9px 20px 0px rgba(0, 0, 0, 0.75);
     border: 2px solid #fff;
     cursor: pointer;
+}
+@media only screen and (max-width:320px){
+    .footer .links{
+        display: none;
+    }
 }
 
 /* Comienzo de las media */
