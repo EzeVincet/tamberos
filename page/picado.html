@@ -64,76 +64,57 @@
     </header>
     <!-- --------------------MAIN -------------------------- -->
     <main>
-        <section class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="jumbotron text-center">
-                        <h2>
-                            Servicios de Silos
-                        </h2>
-                        <p>
-                            La Cooperativa de Tamberos ofrece el servicio de venta y acopio de granos
-                        </p>
-                        <p>
-                            <a class="btn btn-primary btn-large" href="#">leer más</a>
-                        </p>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-6">
-                            <div class="card card-silo">
-                                <img class="card-img-top" alt="Pellet"
-                                    src="../media/img/pellet.jpg" />
-                                <div class="card-block">
-                                    <h5 class="card-title">
-                                        Venta de Pellet
-                                    </h5>
-                                    <p class="card-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum natus eos laudantium ut quo ad culpa repellendus delectus dignissimos! Nam repudiandae error id soluta deserunt dignissimos eligendi temporibus sed ratione.
-                                    </p>
-                                    <p>
-                                        <a class="btn btn-primary btn-silo" href="#">Hacer pedido</a> 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="card card-silo">
-                                <img class="card-img-top" alt="Acopio de la cooperativa"
-                                    src="../media/img/silos.jpg" />
-                                <div class="card-block">
-                                    <h5 class="card-title">
-                                        Acopio
-                                    </h5>
-                                    <p class="card-text">
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt inventore sed earum, ullam quis dicta nostrum ut tenetur fugit assumenda molestiae? Iste ipsum rem sunt est unde, quos excepturi ullam!
-                                    </p>
-                                    <p>
-                                        <a class="btn btn-primary btn-silo" href="tel:+5403388490208">Teléfono</a> 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="card card-silo">
-                                <img class="card-img-top" alt="Acopio de granos"
-                                    src="../media/img/maiz.jpg" />
-                                <div class="card-block">
-                                    <h5 class="card-title">
-                                        Venta de granos
-                                    </h5>
-                                    <p class="card-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima atque culpa necessitatibus voluptates et facere repudiandae soluta modi quisquam, ratione nulla explicabo, sed blanditiis exercitationem eum nesciunt! Eaque, dolor ad!
-                                    </p>
-                                    <p>
-                                        <a class="btn btn-primary btn-silo" href="#">Hacer pedido</a> 
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+        <section class="container">
+            <section class="text-picado">
+                <H2>Servicio de picado</H2>
+                <p>
+                    En los últimos años ha crecido en el país la conservación de forraje húmedo y fermentado dentro de
+                    silos
+                    en anaerobiosis. Se llama silaje a este alimento de gramíneas picadas en el momento en que grano y
+                    follaje están en la mejor relación de digestibilidad. También se pican leguminosas, como la alfalfa.
+                </p>
+                <p>
+                    La técnica de conservar y racionar el forraje de esta manera se expandió en nuestro país en la
+                    década de
+                    los ’90 de la mano de la importación de grandes máquinas autopropulsadas de Europa. Los productores
+                    lecheros hicieron punta y luego lo siguieron los feedloteros, viendo que al mezclar este súper
+                    alimento
+                    con algún concentrado proteico y un núcleo mineral bastaba para mantener una alta producción estable
+                    en
+                    el año.
+                </p>
+                <div class="img-picadora">
+                    <img class="mx-auto d-block" src="../media/img/picadora2.jpg" alt="">
                 </div>
-            </div>
-        </section>
+            </section>
+
+            <section class="video-picado">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/nTXVjFFiZSc?start=9"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </section>
+            <section>
+                <h3>Solicite turno aquí</h3>
+                <div class="contacto-grid">
+                    <!-- formulario de contacto -->
+                    <form action="paginaweb.php" method="post">
+                        <p><label for="nombre_apellido">Nombre:</label></p>
+                        <input class="inp-form" type="text" name="nombre_apellido" placeholder="Escriba su nombre">
+                        <p><label for="nombre_apellido">Apellido:</label></p>
+                        <input class="inp-form" type="text" name="nombre_apellido" placeholder="Escriba su apellido">
+                        <p><label for="email">Email:</label></p>
+                        <input class="inp-form" type="email" name="email" placeholder="nombre@ejemplo.com">
+                        <p><label for="caja">Escriba su comentario</label></p>
+                        <textarea name="caja" id="" cols="30" rows="10"></textarea>
+                        <p class="btn-formulario"><input type="reset" value="Limpiar" id="">
+                            <input type="submit" value="Enviar" id="">
+                        </p>
+                    </form>
+                    <!-- fin del formulario -->
+                </div>
+                </div>
+                </div>
     </main>
     <!-- ------------------------- FOOTER ------------------------- -->
     <footer>
