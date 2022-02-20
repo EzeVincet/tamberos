@@ -8,6 +8,9 @@
     <!-- Animate css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
+    
+    <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
+
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +25,7 @@
 
     <!-- css propio -->
     <link rel="stylesheet" href="../css/estilos.css">
-    <title>Silos</title>
+    <title>Mercado</title>
 </head>
 
 <body>
@@ -52,7 +55,7 @@
                                 <li><a class="dropdown-item mb-3 " href="silos.html">Silos</a></li>
                                 <li><a class="dropdown-item mb-3 " href="picado.html">Picado</a></li>
                                 <li><a class="dropdown-item mb-3 " href="mercado.html">Minimercado</a></li>
-                                <!-- <li><a class="dropdown-item mb-3 " href="#">Combustible</a></li> -->
+                                <li><a class="dropdown-item mb-3 " href="#">Combustible</a></li>
                             </ul>
                         </li>
                         <li class="nav-item m-3">
@@ -72,80 +75,37 @@
         </nav>
     </header>
     <!-- --------------------MAIN -------------------------- -->
-    <main>
-        <section class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="jumbotron text-center ">
-                        <h2 class="animate__animated animate__fadeInDown">
-                            Servicios de Silos
-                        </h2>
-                        <p>
-                            La Cooperativa de Tamberos ofrece el servicio de venta y acopio de granos
-                        </p>
-                        <p>
-                            <a class="btn btn-primary btn-large" href="#">leer más</a>
-                        </p>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 col-sm-6">
-                            <div class="card card-silo">
-                                <img class="card-img-top" alt="Pellet" src="../media/img/pellet.jpg" />
-                                <div class="card-block">
-                                    <h5 class="card-title">
-                                        Venta de Pellet
-                                    </h5>
-                                    <p class="card-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum natus eos
-                                        laudantium ut quo ad culpa repellendus delectus dignissimos! Nam repudiandae
-                                        error id soluta deserunt dignissimos eligendi temporibus sed ratione.
-                                    </p>
-                                    <p>
-                                        <a class="btn btn-primary btn-silo" href="#">Hacer pedido</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="card card-silo">
-                                <img class="card-img-top" alt="Acopio de la cooperativa" src="../media/img/silos.jpg" />
-                                <div class="card-block">
-                                    <h5 class="card-title">
-                                        Acopio
-                                    </h5>
-                                    <p class="card-text">
-                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt inventore sed
-                                        earum, ullam quis dicta nostrum ut tenetur fugit assumenda molestiae? Iste ipsum
-                                        rem sunt est unde, quos excepturi ullam!
-                                    </p>
-                                    <p>
-                                        <a class="btn btn-primary btn-silo" href="tel:+5403388490208">Teléfono</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-4 col-sm-6">
-                            <div class="card card-silo">
-                                <img class="card-img-top" alt="Acopio de granos" src="../media/img/maiz.jpg" />
-                                <div class="card-block">
-                                    <h5 class="card-title">
-                                        Venta de granos
-                                    </h5>
-                                    <p class="card-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima atque culpa
-                                        necessitatibus voluptates et facere repudiandae soluta modi quisquam, ratione
-                                        nulla explicabo, sed blanditiis exercitationem eum nesciunt! Eaque, dolor ad!
-                                    </p>
-                                    <p>
-                                        <a class="btn btn-primary btn-silo" href="#">Hacer pedido</a>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <main class="combustible">
+        <section class="container">
+            <div class="text-center pt-5">
+                <h1>Estación de Servicio</h1>
+                <p>Cargá combustible con tu número de usuario</p>
             </div>
         </section>
+        <div class="container-grid">
+            <div class="item1"><h3>Despacho de Combustible</h3>
+                <img src="../media/img/surtidor.png" alt="">
+            </div>
+            <div class="item2"><img class="lax lax_preset_slideX:746:-292 lax_preset_fadeOut:186.5:0" src="../media/img/manguera.png" alt=""></div>
+            <div class="item3">
+                <h3>Transportistas lácteos</h3>
+                <img class="lax lax_preset_blurIn:232:38 lax_preset_fadeIn:148:0" src="../media/img/transporte.png" alt="">
+            </div>
+            <div class="item4">
+                <img class="lax lax_preset_zigzag:170:200" src="../media/img/camioneta.png" alt="">
+                <h3>Despacho automático para clientes</h3>
+            </div>
+            <div class="item5">
+                <img class="lax lax_preset_fadeIn:138:0" src="../media/img/cisterna.png" alt="">
+                <h3>Carga tu cisterna</h3>
+            </div>
+            <div class="item6">
+                <img class="lax lax_preset_seesaw:140:20 lax_preset_fadeInOut:172:0 lax_preset_scaleOut:172:0.6"  src="../media/img/surtidor-panel.png" alt=""> 
+                <h3>Colocá tu usuario para cargar</h3>
+            </div>
+            
+            <div class="barra"></div>
+          </div>
     </main>
     <!-- ------------------------- FOOTER ------------------------- -->
     <footer>
@@ -154,7 +114,7 @@
                 <div class="row">
                     <div class="col-lg-5 col-xs-12 about-company">
                         <h3>Cooperativa de Tamberos Unidos</h3>
-                        <p class="pr-5 text-white-50">Matricula INAES: 1315 | CUIT: 30514346565 </p>
+                        <p class="pr-5 text-white-50">Matricula INAES: 1315 | CUIT: 30514346565</p>
                         <p><a href="#"><i class="fa-brands fa-facebook"></i></a>
                             <a href="#"><i class="fa-brands fa-instagram-square"></i></a>
                         </p>
@@ -200,6 +160,31 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+<script>
+    window.onload = function () {
+      lax.init()
+  
+      // Add a driver that we use to control our animations
+      lax.addDriver('scrollY', function () {
+        return window.scrollY
+      })
+  
+      // Add animation bindings to elements
+      lax.addElements('.selector', {
+        scrollY: {
+          translateX: [
+            ["elInY", "elCenterY", "elOutY"],
+            [0, 'screenWidth/2', 'screenWidth'],
+          ]
+        }
+      })
+    }
+  </script>
 </body>
 
 </html>

@@ -34,13 +34,14 @@ h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     color: #142e13 !important;
     background-color: #48af4459;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     transition: all 0.9s 0s ease;
 }
+
 .navbar .nav-item {
     font-size: 100%;
 }
@@ -98,8 +99,8 @@ h3 {
     -moz-box-shadow: 1px -13px 40px -5px rgba(14, 28, 23, 0.64);
 }
 
-.main .novedades p{
-    text-align: justify; 
+.main .novedades p {
+    text-align: justify;
 }
 
 /* Correspondiente al Footer */
@@ -328,6 +329,84 @@ h3 {
     background-color: #48af445d;
 }
 
+/* Combustible */
+/* 
+.combustible {
+    
+    height: 1200px;
+    background-color: #ffffff;
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: 1fr 5px 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "item1 barra item2"
+        "item3 barra item4"
+        "item5 barra item6";
+}
+
+.item1 {
+    grid-area: item1;
+    margin-top: 5rem;
+    margin-left: 6rem;
+}
+.item1 img{
+    width: 200px;
+    margin-left: 4rem;
+}
+
+.item2 {    
+    grid-area: item2;     
+    
+}
+
+.item2 img {
+    width: 70%;
+}
+
+.item3 {
+    grid-area: item3; 
+    margin-left: 3rem;   
+}
+.item3 img{
+    width: 60%;
+}
+
+.item4 {
+    grid-area: item4;
+}
+.item4 img{
+    width: 550px;
+}
+.item5 {
+    grid-area: item5;
+    margin-left: 3rem;
+}
+.item5 img{
+    width: 300px;
+    margin-left: 2rem;
+}
+.item6 {
+    grid-area: item6;
+}
+.item6 img{
+    width: 300px;
+}
+
+.barra {
+    grid-area: barra;
+    height: 1200px;
+    background-color: #bfe7bd;
+} */
+
+
+
+
 /* ------------------------------------------------------------------------------------ */
 /* Comienzo de las media */
 
@@ -358,8 +437,38 @@ h3 {
         width: 100%;
         height: 60vh;
     }
+
     .main .novedades {
         width: 100%;
         margin-top: -143px;
     }
+    /* .item1 img{
+        width: 150px;
+    }
+    .item2 img {
+        width: 250px;        
+    }
+    .item3 img {
+        width: 150px;
+    }
+    .item4 img{
+        width: 50px;
+    }
+    .item5 img{
+        width: 150px;
+    }
+    .item6 img{
+        width: 150px;
+    }
+    .barra{
+        height: 1000px;
+    } */
 }
+/* @media only screen and (max-width:1230px){
+    .item4 img{
+        width: 350px;
+    }
+    .item3 img{
+        width: 250px;
+    }
+} */
